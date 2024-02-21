@@ -35,6 +35,16 @@ print(a)
 b = "%skk" %"ffff"
 print(b)
 c = "%s%d" %("sibal",2)
-print(c)
 d = "%d%% fuk" %333 #%% 3%
+print(c)
 print(d)
+
+print("shit {0} to wat") # 0
+print("shit {0} to wat".format(4)) # 4
+
+e = "%0.6f" % 1.234421
+print(e) # 4
+
+dada='qkfkqqjgmbdfolworkgfl'
+print(dada.find('o')) #12
+print(dada.index('o')) #12
